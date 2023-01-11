@@ -10,8 +10,8 @@ body {
   font-size: 16px;
   background-color: var(--main-background-color);
 }
-h1, 
-h2, 
+h1,
+h2,
 h3,
 h4,
 h5,
@@ -20,18 +20,18 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-ul{
+ul {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0; 
+  padding-left: 0;
 }
-address{
+address {
   font-style: normal;
 }
 button {
   cursor: pointer;
 }
-img{
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -47,7 +47,8 @@ img{
   outline: 2px solid red;
 }
 .header {
-  padding: 24px, 156px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-link {
   font-weight: 500;
@@ -89,7 +90,7 @@ img{
 .nav-link:focus {
   color: var(--accent-color);
 }
-.header-links :not(:last-child){
+.header-links :not(:last-child) {
   margin-right: 40px;
 }
 
@@ -101,7 +102,6 @@ img{
 .cover {
   background-color: hsl(237, 18%, 22%);
   padding: 188px, 473px;
-
 }
 .cover-title {
   font-size: 56px;
@@ -128,7 +128,6 @@ img{
 .features {
   background-color: var(--main-background-color);
   padding: 120px, 156px;
-  
 }
 .visually-hidden {
   position: absolute;
@@ -155,7 +154,6 @@ img{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-title-color);
-
 }
 .section-title {
   font-size: 36px;
@@ -164,7 +162,6 @@ img{
   color: var(--primary-title-color);
   padding-top: 120px;
   padding-bottom: 120px;
-
 }
 .content {
   padding-top: 32px;
@@ -183,7 +180,6 @@ img{
 }
 .services {
   padding: 120px, 156px;
-
 }
 .team {
   padding: 120px, 156px;
@@ -195,7 +191,6 @@ img{
 .footer {
   background-color: #2e2f42;
   padding-top: 120px;
-  margin-top: 100px;
 }
 .other-part {
   color: #f4f4fd;
@@ -205,9 +200,6 @@ img{
   letter-spacing: 0.02em;
   color: #e7e9fc;
   margin-top: 16px;
-  margin-bottom: 100px;
-  margin-left: 156px;
-  margin-right: 1020px;
 }
 .hero-title {
   background-color: var(--main-background-color);
