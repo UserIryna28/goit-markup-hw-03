@@ -101,7 +101,8 @@ img {
 /* ----hero----- */
 .cover {
   background-color: hsl(237, 18%, 22%);
-  padding: 188px, 473px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .cover-title {
   font-size: 56px;
@@ -127,7 +128,8 @@ img {
 /* ----features---- */
 .features {
   background-color: var(--main-background-color);
-  padding: 120px, 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -160,8 +162,8 @@ img {
   line-height: 1.1;
   background: #f4f4fd;
   color: var(--primary-title-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-bottom: 72px;
+
 }
 .content {
   padding-top: 32px;
@@ -179,10 +181,12 @@ img {
   list-style: none;
 }
 .services {
-  padding: 120px, 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team {
-  padding: 120px, 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .title-list {
@@ -190,7 +194,8 @@ img {
 }
 .footer {
   background-color: #2e2f42;
-  padding-top: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .other-part {
   color: #f4f4fd;
@@ -204,6 +209,7 @@ img {
 .hero-title {
   background-color: var(--main-background-color);
   padding-top: 96px;
+  padding-bottom: 72px;
 }
 .pointer {
   cursor: pointer;
@@ -234,4 +240,6 @@ img {
 }
 .services-list {
   list-style: none;
+  padding-top: 72px;
+  padding-bottom: 120px;
 }
