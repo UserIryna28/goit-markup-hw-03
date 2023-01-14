@@ -10,6 +10,10 @@ body {
   font-size: 16px;
   background-color: var(--main-background-color);
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 h1,
 h2,
 h3,
@@ -48,6 +52,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #E7E9FC;
 }
 .header-container {
   display: flex;
@@ -112,12 +117,15 @@ img {
 }
 /* ----hero----- */
 .cover {
-  background-color: hsl(237, 18%, 22%);
+  background-color: #2E2F42;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
 }
 .cover-title {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 56px;
   line-height: 1;
   letter-spacing: 0.02em;
@@ -126,11 +134,12 @@ img {
   text-align: center;
 }
 .cover-button {
-  min-width: 169px;
+  border: none;
+  padding: 16px 32px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   cursor: pointer;
   color: var(--cover-color);
   background-color: #4d5ae5;
@@ -145,14 +154,18 @@ img {
 /* ----features---- */
 .features {
   background-color: var(--main-background-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  
 }
 .features-list {
   display: flex;
 }
+.features-item {
+  width: 264px;  
+}
 .features-item:not(:last-child) {
   margin-right: 24px;
+  
+  
 }
 .visually-hidden {
   position: absolute;
@@ -181,18 +194,16 @@ img {
   color: var(--secondary-title-color);
 }
 .section-title {
+  text-align: center;
   font-size: 36px;
   line-height: 1.1;
   color: var(--primary-title-color);
   margin-bottom: 72px;
-  display: flex;
-  justify-content: center;
+
 }
 .content {
   padding-top: 32px;
-  padding-right: 65px;
   padding-bottom: 32px;
-  padding-left: 65px;
   text-align: center;
 }
 .services-content {
@@ -204,12 +215,11 @@ img {
 }
 .services-list {
   list-style: none;
-  padding-top: 72x;
-  padding-bottom: 120px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 24;
+  gap: 24px;
+  
 }
 .features-list {
   list-style: none;
@@ -236,9 +246,7 @@ img {
   margin-right: 24px;
 }
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 .title-list {
   list-style: none;
@@ -256,15 +264,17 @@ img {
   display: flex;
 }
 .hero-button {
-  min-width: 126px;
+  border: none;
+  padding: 12px 24px;
   cursor: pointer;
-  margin-right: 24px;
   background-color: #f4f4fd;
   color: var(--accent-color);
   border: 1px solid #E7E9FC;
   border-radius: 4px;
-  flex-basis: calc(100%-96)/5;
+  
 }
+
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--accent-color);
@@ -275,13 +285,18 @@ img {
   padding-top: 96px;
   padding-bottom: 72px;
   display: flex;
-  justify-content: center; 
+  gap: 24px;
+  justify-content: center;
+  
 }
 /* ---------FOOTER--------------- */
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.footer .nav-logo {
+  margin-right: 0;
 }
 .other-part {
   color: #f4f4fd;
